@@ -1,0 +1,51 @@
+.avatar-comment {
+    width: 70px;
+    min-width: 70px;
+    text-align: center;
+    padding: 5px;
+}
+.avatar-comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.avatar-comment small a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+}
+.avatar-comment small a:hover {
+    color: crimson;
+}
+.comment-box {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 0.75rem;
+}
+.avatar-reply {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+.avatar-reply img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.avatar-reply .reply-text {
+    display: block;
+    opacity: 0.5;
+    font-size: 11px
+}
+.comment-box .comment-nav {
+    cursor: pointer;
+    display: none;
+}
+.comment-box:hover .comment-nav {
+    cursor: pointer;
+    display: block
+}
+.comment-box:hover .comment-nav i:hover {
+    color: crimson
+}
